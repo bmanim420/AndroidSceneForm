@@ -27,7 +27,6 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <meta-data
             android:name="com.google.ar.core"
@@ -51,11 +50,6 @@
         <meta-data
             android:name="com.google.ar.core.min_apk_version"
             android:value="181012000" />
-
-        <provider
-            android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="com.example.androidsceneform.com.android.tools.ir.server.InstantRunContentProvider"
-            android:multiprocess="true" />
     </application>
 
 </manifest>
